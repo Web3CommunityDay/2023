@@ -349,7 +349,7 @@ a.back-to-top:focus {
     margin: 0 auto;
     width: 15%;
     height: 15%;
-    background-color: #bf9751;
+    background-color: #CA33FF;
     border-radius: 100%;
     -webkit-animation: sk-circleBounceDelay 1.2s infinite ease-in-out both;
     animation: sk-circleBounceDelay 1.2s infinite ease-in-out both;
@@ -1491,7 +1491,7 @@ a.back-to-top:focus {
     left: 20px;
     padding: 4px 27px;
     background-color: white;
-    color: #bf9751;
+    color: #CA33FF;
     border-radius: 4px;
     display: block;
     font-size: 14px;
@@ -1521,7 +1521,7 @@ a.back-to-top:focus {
 }
 
 .blog-item .descr h3 a:hover {
-    color: #bf9751;
+    color: #CA33FF;
 }
 
 .blog-item .descr .meta-tags {
@@ -1539,7 +1539,7 @@ a.back-to-top:focus {
 }
 
 .blog-item .descr .meta-tags span a:hover {
-    color: #bf9751;
+    color: #CA33FF;
 }
 
 .blog-item:hover {
