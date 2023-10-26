@@ -339,12 +339,12 @@ ol li {
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
 
-* {
+/* * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     font-family: Poppins;
-}
+} */
 
 .home-container {
     width: 100%;
@@ -357,19 +357,22 @@ ol li {
 
 .profile-card {
     position: relative;
-    width: 220px;
-    height: 220px;
+    width: 260px;
+    /* width: 260px; */
+    height: 360px;
+    /* height: 260x; */
     background-color: #fff;
     padding: 30px;
-    border-radius: 50%;
+    border-radius: 10px;
     box-shadow: -5px 8px 45px rgba(51, 51, 51, 0.126);
     transition: all .4s;
-    margin: 0 20px;
+    margin: 100px;
 }
 
 .profile-card:hover {
-    border-radius: 10px;
-    height: 260px;
+    /* border-radius: 10px;
+    height: 260px; */
+    background-color: #FF7F50;
 }
 
 .profile-card .img {
@@ -378,35 +381,40 @@ ol li {
     height: 100%;
 }
 
-.profile-card:hover img {
+/* .profile-card:hover img {
     border-radius: 10px;
     transform: translateY(-70px);
-}
+} */
 
 .img img {
     object-fit: fill;
+    /* width: 100%; */
     width: 100%;
-    border-radius: 50%;
+    /* border-radius: 10px; */
+    border-radius: 10px;
     transition: all .4s;
     z-index: 99;
+    transform: translateY(-70px);
 }
 
 .caption {
     text-align: center;
     transform: translateY(-90px);
-    opacity: 0;
+    opacity: 1;
     pointer-events: none;
     transition: all .5s;
+    pointer-events: all;
 }
 
 .profile-card:hover .caption {
-    opacity: 1;
-    pointer-events: all;
+    /* opacity: 1;
+    pointer-events: all; */
+    color: #f1f1f1;
 }
 
 .caption h3 {
     font-size: 21px;
-    color: #0c52a1;
+    /* color: #0c52a1; */
     font-weight: 600;
 }
 
@@ -414,16 +422,18 @@ ol li {
     font-size: 15px;
     font-weight: 500;
     margin: 2px 0 12px 0;
+    padding-bottom: 5px;
 }
 
 .caption .social-links i {
-    font-size: 21px;
+    font-size: 31px;
     margin: 0 3px;
     cursor: pointer;
     color: #333;
     transition: all .4s;
+
 }
 
 .caption .social-links i:hover {
-    color: #0c52a1;
-}
+    color: #fff;
+} 
